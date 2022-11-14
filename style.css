@@ -4,18 +4,34 @@
     margin: 0;
 }
 body {
+    background-image: url("https://wallpaperaccess.com/full/321145.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
 .result{
     margin-left: auto;
     margin-right: auto;
+    width: 480px;
+    height: 560px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 7px 0 15px 0 rgb(76, 76, 76);
 }
+/*
+#icon{
+    padding: 70px 15px 30px 15px;
+}
+*/
 #region{
-    font-size: 60px;
+    font-size: 30px;
     color: black;
     padding-top: 15px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
 }
 #temp {
     font-size: 100px;
@@ -28,4 +44,20 @@ body {
 }
 #celsius {
     font-size: 30px;
+}
+#feelLike{
+    font-size: 18px;
+}
+#FeelLikeCelsius{
+    font-size: 10px;
+}
+#icon{
+    margin: 0;
+    width: 100px;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+.locationIcon{
+    width: 35px;
+    padding-top: 20px;
 }
