@@ -29,17 +29,16 @@ body {
 #region{
     font-size: 30px;
     color: black;
-    padding-top: 15px;
     word-spacing: 25px;
     letter-spacing: 5px;
 }
 #temp {
     font-size: 100px;
-    padding-top: 20px;  
+    padding-top: 10px;  
 }
 #description{
     font-size: 30px;
-    padding: 30px;
+    padding: 20px;
     text-transform: capitalize;
 }
 #celsius {
@@ -59,5 +58,15 @@ body {
 }
 .locationIcon{
     width: 35px;
+    padding-top: 10px;
+}
+#timeNow{
+    font-size: 30px;
     padding-top: 20px;
+    color: rgb(17, 82, 102);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#dateToday{
+    padding-top: 20px;
+    font-size: 20px;
 }
