@@ -74,7 +74,7 @@ let promise = fetch(`http://api.openweathermap.org/geo/1.0/direct?q=Helsingborg&
                 console.log(time);
 
                 let day = date.getDate();
-                let month = date.getMonth();
+                let month = date.getMonth()+1;
                 let year = date.getFullYear();
                 let theDateNow =`${day} / ${month} / ${year}`;
                 document.getElementById('dateToday').innerHTML = theDateNow;
